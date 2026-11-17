@@ -17,7 +17,13 @@ body:has(dialog[open]){overflow:hidden}
  .dialogbody .btn{max-width:100%;font-size:12px}
 }
 @media(max-width:360px){.wrap{padding-inline:16px}.heroart{padding-inline:0}.board{padding-inline:16px}.navlinks{font-size:10px;gap:9px}.mark{width:31px;height:36px}.featured-copy{padding:20px}.thumb{padding:24px}.learn{padding:18px}.quiz{padding:18px}.answers{gap:6px}.answers button{padding:9px}}
-</style></head><body>
+@media(orientation:landscape) and (max-height:500px){
+ dialog{max-height:96dvh}
+ .dialoghead{padding:4px 14px;font-size:12px}
+ .close{min-height:36px}
+ .dialogbody{grid-template-columns:minmax(110px,calc((96dvh - 78px) * 9 / 16)) minmax(0,1fr);gap:20px;padding:12px}
+ .player{width:100%;height:auto;max-height:none;aspect-ratio:9/16}
+}</style></head><body>
 <header><nav class="nav" aria-label="主要導覽"><a class="brand" href="#"><span class="mark" aria-hidden="true">e</span><span>我愛學英文<small>ENGLISH, A LITTLE EVERY DAY.</small></span></a><div class="navlinks"><a href="#library">影片館</a><a href="#practice">練習一下</a></div><a class="navpill" href="#featured">從這支開始 ↗</a></nav></header>
 <main class="wrap"><section class="hero"><div><div class="eyebrow">A LITTLE ENGLISH, EVERY DAY</div><h1>把英文，<br><span>一點一點學懂。</span></h1><p class="lead">讓抽象的文法動起來，讓難懂的句子變清楚。<br>收藏每一支用心製作的英語教學影片，<br>陪你把「我不會」，慢慢變成「我懂了」。</p><div class="actions"><a class="btn" href="#library">開始找影片 <span>↗</span></a><a class="textlink" href="#practice">先來一題 →</a></div><div class="fine"><i>✦</i>自製教學 / 中文解說 / 英文例句</div></div><div class="heroart" aria-label="分詞構句動態筆記示意"><div class="board"><div class="tape"></div><small>LESSON 001 · GRAMMAR NOTES</small><h2>一個主詞，<br><span>兩個動作。</span></h2><div class="formula"><del>Because I felt</del> tired,<br>I went to bed early.</div><div class="down">↓</div><div class="formula"><strong>Feeling tired,</strong><br>I went to bed early.</div><footer><span>分詞構句 PARTICIPLES</span><span>01 / 06</span></footer></div><div class="sticker"><b>68 秒</b>一個小觀念</div></div></section>
 <div class="ticker"><span>短短一支，看懂一個觀念</span><span>用例句，理解文法</span><span>學完一點，練習一點</span></div>

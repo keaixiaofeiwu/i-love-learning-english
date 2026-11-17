@@ -1,0 +1,10 @@
+.env
+.env.*
+node_modules/
+*.mp4
+*.webm
+*.wav
+*.pcm
+*.tar.gz
+.DS_Store
+Thumbs.db

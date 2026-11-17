@@ -1,5 +1,37 @@
 [
   {
+    "id": "relative-pronouns",
+    "title": "關係代名詞，一次搞懂。",
+    "englishTitle": "Relative Pronouns",
+    "category": "文法觀念",
+    "level": "高中・學測",
+    "duration": "1:11",
+    "date": "2026-11-17",
+    "youtubeId": "_6FBcwclXlc",
+    "driveUrl": "https://drive.google.com/file/d/1qL1SFdS-UGCEbG5By8XZae6WZNYwZ38z/view",
+    "description": "who、which、whose 怎麼選？用六個小章節，整理先行詞、主格受格、省略規則與逗號的關鍵。",
+    "tags": [
+      "關係代名詞",
+      "who",
+      "which",
+      "that",
+      "whose",
+      "主格",
+      "受格",
+      "非限定子句",
+      "文法",
+      "學測"
+    ],
+    "points": [
+      "先行詞是人：主格可用 who；事物常用 which / that",
+      "限定子句的受格可省；作主詞時不能省",
+      "whose + 名詞，表所有關係",
+      "非限定子句有逗號，不用 that，關係代名詞也不能省"
+    ],
+    "note": "先確認先行詞，再判斷子句中缺少主詞、受詞，還是所有關係；最後檢查是否有逗號。",
+    "source": "relative-pronouns-showreel.html"
+  },
+  {
     "id": "participial-construction",
     "title": "分詞構句，一次搞懂。",
     "englishTitle": "Participial Construction",
@@ -10,8 +42,21 @@
     "youtubeId": "WCGcW_vCDDs",
     "driveUrl": "https://drive.google.com/file/d/143QKYPSEhdqUvQbWefXKTSPkJYWFjWDY/view",
     "description": "同主詞才能省、主動與被動怎麼選？用一分鐘動態筆記，抓住分詞構句的轉換邏輯與常見陷阱。",
-    "tags": ["分詞構句", "現在分詞", "過去分詞", "懸垂分詞", "文法", "學測"],
-    "points": ["先確認前後主詞相同", "主動用 V-ing，被動用過去分詞", "先完成：Having + p.p.", "否定 Not 放在分詞片語前", "小心懸垂分詞：動作的主詞要對得上"],
+    "tags": [
+      "分詞構句",
+      "現在分詞",
+      "過去分詞",
+      "懸垂分詞",
+      "文法",
+      "學測"
+    ],
+    "points": [
+      "先確認前後主詞相同",
+      "主動用 V-ing，被動用過去分詞",
+      "先完成：Having + p.p.",
+      "否定 Not 放在分詞片語前",
+      "小心懸垂分詞：動作的主詞要對得上"
+    ],
     "source": "participial-showreel.html"
   }
 ]

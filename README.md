@@ -2,9 +2,9 @@
 
 自製英語教學影片收藏網站，提供影片搜尋、主題分類、YouTube 播放、學習重點與隨堂練習。
 
-目前網站：https://after-class-english-films.workspace-395034.chatgpt.site
+目前網站：https://keaixiaofeiwu.github.io/i-love-learning-english/
 
-網站目前僅擁有者可觀看，需登入原網站擁有者的 ChatGPT 帳號。這個 GitHub 儲存庫用於保存網站原始碼，未啟用公開的 GitHub Pages。
+網站已透過 GitHub Pages 公開發布，訪客不需登入 ChatGPT 或 GitHub。儲存庫為公開；雲端原檔保持原本分享權限。
 
 ## 檔案
 
@@ -25,7 +25,7 @@ python -m http.server 8000
 
 ## 新增影片
 
-在 `videos.json` 新增一筆影片資料，沿用現有欄位，包含唯一 id、標題、分類、YouTube ID、Google Drive 原檔連結及學習重點。驗證畫面與連結後，更新目前的 Sites 私人網站部署。
+在 `videos.json` 新增一筆影片資料，沿用現有欄位，包含唯一 id、標題、分類、YouTube ID、Google Drive 原檔連結及學習重點。驗證畫面與連結後，提交到 main 分支，等待 GitHub Pages 自動部署。
 
 影片 MP4 原檔存放於 Google Drive，不將影片二進位檔加入 Git 儲存庫。
 
